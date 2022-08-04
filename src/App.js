@@ -3,7 +3,7 @@ import TOC from './Components/TOC';
 import Subject from './Components/Subject';
 import Content from './Components/Content';
 
-
+// 생활코딩 보면서 학습중
 class App extends Component{
   constructor(props){
     super(props);
