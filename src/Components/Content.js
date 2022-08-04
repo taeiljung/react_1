@@ -3,7 +3,10 @@ import React,{ Component } from "react";
 class Content extends Component{
     render(){
         return(
-            <div>HERE IS Content SIDES</div>
+            <div>
+                <h3>{this.props.title}</h3>
+                {this.props.desc}
+            </div>
         )
     }
 }
